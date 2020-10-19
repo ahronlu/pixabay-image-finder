@@ -35,7 +35,7 @@ class Search extends Component {
   render() {
     console.log(this.state.images);
     return (
-      <div>
+      <div style={{ margin: "0 20px" }}>
         <TextField
           name="searchText"
           value={this.state.searchText}
